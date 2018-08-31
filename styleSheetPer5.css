@@ -1,0 +1,107 @@
+body{
+    font-family: comic, times,helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+header{
+    background: rgb(90,90,90);
+    color:white;
+    border-bottom:orange 3px solid;
+    min-height: 120px;
+    
+}
+
+header h1{
+    float:left;
+    margin-top: 50px;
+    
+}
+
+nav{
+    float: right;
+    margin-top: 50px;
+}
+
+header li{
+    
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    color:white;
+    
+}
+
+header a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+    
+}
+#showcase{
+    
+    background:url(manWithHat.jpg) no-repeat -150px -20px;
+    min-height: 500px;
+    max-height: 600px;
+    color:white;
+}
+#showcase h1{
+    color:yellow;
+    margin-top:50px;
+    margin: auto;
+    width: 40%;
+}
+
+#showcase p{
+    width:40%;
+    margin:auto;
+}
+
+#hats{
+    margin-top: 20px;
+}
+
+.hat{
+    float: left;
+    width: 30%;
+    text-align:center;
+    padding: 20px;
+}
+
+.hat h3{
+    color:blue;
+}
+
+footer{
+    background-color:rgb(90,90,90);
+    color: white;
+    margin-top:10px;
+    border-top: orange 3px solid;
+}
+
+footer li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+header a:hover{
+    
+    color: red;
+    font-weight: bold;
+
+}
+
+.highlight{
+    color: lime;
+}
+}

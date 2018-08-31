@@ -1,0 +1,344 @@
+body{
+    font-family: comic, times,helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+.containerHeader{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+header{
+    background: black;
+    color:white;
+    border-bottom:yellow 7px solid;
+    min-height: 120px;
+    position: sticky;
+    top: 0.25rem;
+    
+}
+
+header h1{
+    float:left;
+    margin-top: 50px;
+    
+    
+}
+
+
+header ul{
+    font-family: comic, times,helvetica;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+    
+}
+header img{
+    float:left;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+header ul li{
+    
+    float:left;
+    width: 120px;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+
+}
+header ul li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    
+}
+header li a:hover{
+    
+    
+}
+
+header ul li a:hover{
+    
+    
+}
+
+header ul li ul li{
+ display: none; 
+ background-color: black;
+ opacity: 0.8;
+ font-size: 16px;
+ 
+}
+
+header ul li:hover ul li {
+    
+    
+}
+
+header ul li:active ul li {
+    display: block;
+    
+}
+
+
+
+
+
+
+nav{
+    float: right;
+    margin-top: 60px;
+}
+/*
+header li{
+    
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+header ul{
+    margin:0px;
+    padding:0px;
+}
+
+header a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+    
+}
+*/
+
+#showcase{
+    color:white;
+    background:url(computers.jpg) no-repeat 0px -400px; 
+    
+    background-size: cover;
+    min-height: 220px;
+   
+}
+
+
+#showcase h1{
+    color:black;
+    width:40%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+
+#showcase p{
+    width:40%;
+    margin:auto;
+}
+
+
+
+
+
+
+.hats{
+    
+    margin-top: 20px;
+    
+}
+
+.hat{
+    background-color: rgb(255,255,255);
+    color:black;
+    float: left;
+    text-align: center;
+    width:30%;
+    padding:20px;
+    
+}
+
+
+
+
+header .highlight{
+    
+    color:yellow;
+    font-weight: bold;
+}
+
+header a:hover{
+    font-weight: bold;
+    color:rgb(200,200,200);
+    
+    
+}
+
+footer a:hover{
+    font-weight: bold;
+    color:yellow;
+    
+}
+
+footer{
+    background-color: black;
+    border-top:yellow 7px solid;
+    text-align:center;
+    color:white;
+    margin-top: 30px;
+    min-height: 120px;
+    
+}
+
+footer a{
+    text-decoration:underline;
+    color:white;
+    text-transform: uppercase;
+}
+
+footer li{
+    display: inline;
+    padding:0 20px 0 20px;
+}
+
+
+
+
+
+
+
+.dark{
+    padding: 15px;
+    background:rgb(90,90,90);
+    color: white;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    
+}
+
+.main{
+    text-align:left;
+    margin-bottom: 10px;
+    min-height: 400px;
+    
+}
+
+#sidebar h1{
+    color:lime;
+}
+
+#sidebar2 h1{
+    color:lime;
+    margin-bottom: 10px;
+}
+.middle{
+    
+    margin-bottom: 10px;
+}
+
+#sidebar2{
+   float:left;
+    width: 20%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.custTut ul{
+    text-align: left;
+    list-style: none;
+    
+    font-size: 22px;
+    line-height: normal;
+    
+    float: left;
+    
+    width: 60%;
+    margin-bottom: 20px;
+    
+}
+.custTut li{
+    
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+
+@media(max-width: 770px){
+    
+    
+    
+    header h1, header nav,nav,header ul li,header ul, .hat{
+        color: purple;
+        float: none;
+        text-align:center;
+        width:100%;
+    }
+    
+    
+    header img{
+        margin:0;
+    }
+    
+    .sticky{
+        bottom: 20.5rem;
+    }
+}
+#btn{
+    display: block;
+    float:left;
+    color: yellow;
+}
+
+#btn:hover{
+    color:purple;
+}
+
+.sticky{
+    font-family: comic,arial;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    padding-left: 10px;
+    color:yellow;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    position: sticky;
+    bottom: 25.5rem;
+    
+}
+
+.pic{
+    float:left;
+    margin-left: 5px;
+    padding: 0 20px 0 20px;
+}
+ .pics{
+  margin-bottom: 20px;   
+ }
+ 
