@@ -23,8 +23,9 @@ header{
     color:white;
     border-bottom:yellow 7px solid;
     min-height: 120px;
-    position: sticky;
-    top: 0.25rem;
+   
+    /*position: sticky;
+    top: 0.25rem;*/
     
 }
 
@@ -34,6 +35,12 @@ header h1{
     
     
 }
+
+.middleSection p{
+    font-size: 200px;
+}
+
+
 
 
 header ul{
