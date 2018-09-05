@@ -104,4 +104,25 @@ header a:hover{
 .highlight{
     color: lime;
 }
+
+
+#showcaseBio{
+    float: left;
+    width: 40%;
+    
 }
+
+#sidebar h1{
+    
+    color: lime;
+}
+#sidebar{
+    margin-top: 30px;
+    color: white;
+    float: right;
+    width: 50%;
+    background-color: rgb(90,90,90);
+}
+
+
+
